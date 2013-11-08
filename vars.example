@@ -1,0 +1,18 @@
+# CONFIG
+
+# Full path to your root of the project dir
+# for instance from where you would normally run ./manage.py runserver
+
+PROJECT_ROOT='/home/user/projects/myproject'
+
+#Free form
+PROJECT_NAME="My_Project"
+
+# List of appservers can be found in the appservers dir
+# Choose one of the scripts
+APPSERVER="django-dev-server.sh"
+
+# Set to 1 to activate and 0 deactivate a service
+POSTGRES=1
+REDIS=0
+MEMCACHED=0
