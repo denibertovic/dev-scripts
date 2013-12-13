@@ -1,4 +1,4 @@
-DOCKER_VERSION=0.6.5
+DOCKER_VERSION=0.7
 
 ## check if docker installed
 command -v docker >/dev/null 2>&1 || \
